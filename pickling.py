@@ -1,7 +1,7 @@
 import pickle
 cars=["audi","bmw","toyota","merc"]
 
-f.open("Mycars.pkl",'wb')
+f = open("Mycars.pkl", 'wb')
 pickle.dump(cars,f) # coverted into a byte stream & stored in file
 f.close()
 
